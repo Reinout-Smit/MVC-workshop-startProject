@@ -47,8 +47,8 @@ public class WijzigKlantController {
         db.closeConnection();
     }
 
-    public void doBackToMenu(ActionEvent actionEvent) {
-        ApplicationLauncher.getSceneManager().showWelcomeScene();
+    public void doBackToKlantenLijst(ActionEvent actionEvent) {
+        ApplicationLauncher.getSceneManager().showCustomerListScene();
     }
 
     public void setup(Customer customer) {
