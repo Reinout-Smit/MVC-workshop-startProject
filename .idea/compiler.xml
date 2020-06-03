@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="MVC workshop startProject" />
         <module name="MVCvoorbeeld" />
+        <module name="MVC-workshop-startProject" />
         <module name="MVC workshop startProject - Copy" />
       </profile>
     </annotationProcessing>
