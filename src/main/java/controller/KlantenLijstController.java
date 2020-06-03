@@ -43,7 +43,6 @@ public class KlantenLijstController {
         }
         ApplicationLauncher.getSceneManager().showExistingCustomerScene(customer);
 
-        // TODO: wat als er geen customer geselecteerd is?
     }
 
     public void doBackToMenu(){

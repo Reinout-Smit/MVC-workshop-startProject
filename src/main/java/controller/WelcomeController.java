@@ -34,7 +34,6 @@ public class WelcomeController {
         taskMenuButton.getItems().add(item1);
 
         MenuItem item2 = new MenuItem("Wijzigen bestaande klant");
-        // TODO: action handler voor tweede menu item
         item2.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
