@@ -15,7 +15,7 @@
          </children>
       </Pane>
       <Button fx:id="editButton" layoutX="94.0" layoutY="279.0" mnemonicParsing="false" onAction="#doChangeCustomer" text="Wijzig Klant" />
-      <Button fx:id="menuButton" layoutX="203.0" layoutY="279.0" mnemonicParsing="false" text="Menu" />
+      <Button fx:id="menuButton" layoutX="203.0" layoutY="279.0" mnemonicParsing="false" text="Menu" onAction="#doBackToMenu" />
       <TextField fx:id="warningText" layoutX="94.0" layoutY="323.0" prefHeight="27.0" prefWidth="368.0" visible="false">
          <opaqueInsets>
             <Insets />

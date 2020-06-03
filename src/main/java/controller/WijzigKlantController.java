@@ -45,7 +45,10 @@ public class WijzigKlantController {
         Customer customer = new Customer(id, initials, prefix, surname, mobile);
         cdao.updateCustomer(customer);
         db.closeConnection();
-       // TODO: terugkeren naar KlantenLijst
+    }
+
+    public void doBackToMenu(ActionEvent actionEvent) {
+        ApplicationLauncher.getSceneManager().showWelcomeScene();
     }
 
     public void setup(Customer customer) {
@@ -55,6 +58,4 @@ public class WijzigKlantController {
         achternaamTextfield.setText(customer.getSurName());
         mobielTextfield.setText(customer.getMobilePhone());
     }
-
-
 }

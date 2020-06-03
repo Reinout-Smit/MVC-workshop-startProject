@@ -6,10 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MVC workshop startProject - Copy" />
         <module name="MVC workshop startProject" />
         <module name="MVCvoorbeeld" />
         <module name="MVC-workshop-startProject" />
-        <module name="MVC workshop startProject - Copy" />
       </profile>
     </annotationProcessing>
   </component>

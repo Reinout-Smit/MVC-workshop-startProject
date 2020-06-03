@@ -53,7 +53,7 @@ public class NieuweKlantController {
     }
 
     public void doBackToMenu(ActionEvent actionEvent) {
-        // TODO: methode om terug te keren naar welkomst scherm
+        ApplicationLauncher.getSceneManager().showWelcomeScene();
     }
 
 
